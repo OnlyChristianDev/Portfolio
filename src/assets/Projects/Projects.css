@@ -1,0 +1,144 @@
+.projects {
+    margin-top: -50px;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sla {
+    margin-bottom: 60px;
+}
+.works {
+    cursor: pointer;
+    width: 420px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #18181B;
+    transition: transform 0.3s ease;
+}
+
+.iconProjects {
+    color: #5F14F3;
+    height: 100px;
+}
+
+.imc {
+    border-radius: 5px;
+    height: 200px;
+    width: 370px;
+}
+
+.quiz {
+    border-radius: 10px;
+    height: 100px;
+    width: 280px;
+}
+
+.bluediv {
+    background-color: #3262C0;
+}
+
+.query {
+    gap: 30px;
+    display: flex;
+}
+.weather {    
+    width: 300px;
+    height: 100px;
+}
+
+@media (max-width: 1440px) {
+    .list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .query {
+        display: flex;
+        gap: 30px;
+    }
+    .projects {
+        margin-top: -50px;
+        height: 80vh;
+        text-align: center;
+    }
+    .works {
+        width: 360px;
+        height: 200px;
+    }
+    .imc {
+        height: 160px;
+        width: 300px;
+    }
+
+}
+@media (max-width: 1200px) {
+    .list {
+        margin-bottom: -200px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .query {
+        display: flex;
+        gap: 40px;
+    }
+    .projects {
+        margin-top: 100px;
+        margin-bottom: 120px;
+        height: 80vh;
+        text-align: center;
+    }
+    .works {
+        width: 390px;
+        height: 220px;
+    }
+    .imc {
+        height: 160px;
+        width: 300px;
+    }
+   
+}
+
+@media (max-width: 900px) {
+
+    .list {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects {
+        height: 120vh;
+        text-align: center;
+    }
+    .query {
+        flex-direction: column;
+        display: flex;
+    }
+    .works {
+        width: 500px;
+        height: 260px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .works {
+        width: 370px;
+        height: 200px;
+    }
+    .query {
+        flex-direction: column;
+        display: flex;
+    }
+}

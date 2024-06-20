@@ -1,0 +1,30 @@
+header {
+    top: 0;
+    color: #000000;
+    width: 100%;
+    height: 55px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.058);
+    position: fixed;
+    z-index: 999;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+header ul li:hover {
+    color: #5F14F3;
+    transform: scale(1.05);
+}

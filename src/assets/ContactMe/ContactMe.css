@@ -1,0 +1,263 @@
+.contact{
+    gap: 50px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+.right {
+    margin-top: 100px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input {
+    padding-left: 20px;
+    width: 500px;
+    height: 33px;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+    background-color: rgb(219, 218, 218);
+    outline: none;
+    border-radius: 10px;
+    
+}
+input::placeholder {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-style: italic;
+}
+
+textarea {
+    resize: none;
+    padding-left: 20px;
+    padding-top: 12px;
+    width: 500px;
+    height: 33px;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+    background-color: rgb(219, 218, 218);
+    outline: none;
+    border-radius: 10px;
+    height: 200px;
+}
+textarea::placeholder {
+    position: absolute;
+    top: 10%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-style: italic;
+}
+button {
+    transition:  0.3s ease;
+    cursor: pointer;
+    width: 500px;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #5F14F3;
+    
+}
+.left {
+    width: 500px;
+}
+.left h1 {
+    padding-bottom: 20px;
+    margin-top: -40px;
+    text-align: center;
+}
+.left h2 {
+    color: #5F14F3;
+    font-size: 15px;
+    text-align: start;
+}
+.left p {
+    text-align: justify;
+    font-size: 15px;
+}
+.medias {
+    margin-top: 10px;
+}
+.right button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1540px) {
+    .contact {
+        margin-top: 120px;
+    }
+    input {
+        padding-left: 20px;
+        width: 470px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+    }
+    textarea {
+        resize: none;
+        padding-left: 20px;
+        padding-top: 12px;
+        width: 470px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+        height: 200px;
+    }
+    button {
+        width: 470px;
+    }
+    .left {
+        width: 470px;
+    }
+    .gmail {
+        display: flex;
+    }
+    .gmail .gmailIcon {
+      margin-top: 6px;
+      margin-right: 4px;
+    }
+}
+@media (max-width: 1024px) {
+    .contact {
+        margin-top: 150px;
+    }
+    input {
+        padding-left: 20px;
+        width: 400px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+    }
+    textarea {
+        resize: none;
+        padding-left: 20px;
+        padding-top: 12px;
+        width: 400px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+        height: 200px;
+    }
+    button {
+        width: 400px;
+    }
+    .left {
+        margin-top: 30px;
+        width: 300px;
+    }
+    .gmail {
+        display: flex;
+    }
+    .gmail .gmailIcon {
+      margin-top: 6px;
+      margin-right: 4px;
+    }
+}
+@media (max-width: 800px) {
+    .contact {
+        margin-top: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        height: 100vh;
+    }
+    .left {
+        width: 420px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .contact {
+        margin-top: 200px;
+    }
+    input {
+        padding-left: 20px;
+        width: 420px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+    }
+    textarea {
+        resize: none;
+        padding-left: 20px;
+        padding-top: 12px;
+        width: 420px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+        height: 200px;
+    }
+    button {
+        width: 430px;
+    }
+    .left {
+        width: 420px;
+    }
+}
+@media (max-width: 450px) {
+    .contact {
+        margin-top: 200px;
+    }
+    input {
+        padding-left: 20px;
+        width: 360px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+    }
+    textarea {
+        resize: none;
+        padding-left: 20px;
+        padding-top: 12px;
+        width: 360px;
+        height: 33px;
+        border: none;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
+        background-color: rgb(219, 218, 218);
+        outline: none;
+        border-radius: 10px;
+        height: 200px;
+    }
+    button {
+        width: 360px;
+    }
+    .left {
+        width: 360px;
+    }
+}
