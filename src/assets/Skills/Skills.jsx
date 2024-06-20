@@ -29,13 +29,6 @@ const Skills = () => {
         <div className="squares firstLine">
           {skills.slice(0, 4).map((skill, index) => (
             <motion.div
-            drag
-            dragConstraints={{
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-            }}
               key={index}
               className="square"
               initial={{ opacity: 0, y: 50 }}
@@ -48,15 +41,7 @@ const Skills = () => {
         </div>
         <div className="squares secondLine">
           {skills.slice(4).map((skill, index) => (
-            <motion.div 
-
-            drag
-            dragConstraints={{
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-            }}
+            <motion.div
               key={index + 4}
               className="square"
               initial={{ opacity: 0, y: 50 }}

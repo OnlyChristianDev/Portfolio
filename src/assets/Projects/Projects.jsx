@@ -21,16 +21,17 @@ const Projects = () => {
       </div>
       <div className="list" ref={ref}>
         <div className="query">
-        <motion.div
+
+        <a target='_blank' href="https://imc-calculator-steel.vercel.app/"><motion.div
           className="works"
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.5, delay: 0.0 }}
-          whileHover={{ scale: "1.05" }} 
-        >
+          whileHover={{ scale: "1.05" }}  
+        > 
           <img className="imc" src="./public/imc.png" alt="IMC Calculator" />
-        </motion.div>
-        <motion.div
+        </motion.div> </a>
+        <a target='_blank' href="https://weather-project-inky-two.vercel.app/"> <motion.div
           className="bluediv works"
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
@@ -38,9 +39,9 @@ const Projects = () => {
           whileHover={{ scale: "1.05" }} 
         >
           <img className="weather" src="./public/weather.png" alt="Weather App" />
-        </motion.div>
+        </motion.div> </a>
         </div>
-        <motion.div
+        <a target= "_blank" href="https://quiz-in-java-script.vercel.app/" ><motion.div
           className="quizdiv works"
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
@@ -48,7 +49,7 @@ const Projects = () => {
           whileHover={{ scale: "1.05" }} 
         >
           <img className="quiz" src="./public/quiz.png" alt="Quiz App" />
-        </motion.div>
+        </motion.div> </a>
       </div>
     </div>
   );

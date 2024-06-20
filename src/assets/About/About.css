@@ -63,10 +63,40 @@
 .space {
     margin-right: 5px;
 }
+
 @media (max-width: 1024px){
-    
+       
+    .About h1 {
+        font-weight: 900;
+        font-size: 66px;
+        line-height: 0.9;
+    }
+    .About img {
+        margin-top: -20px;
+        border-radius: 50%;
+        height: 160px;
+        margin-bottom: 20px;
+    }
+    .description {
+        font-size: 15px;
+        width: 800px;
+    }
+    .cv {
+        transition: transform 0.3s;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.151);
+        background-color: #5F14F3;
+        color: #ffffff;
+        border: none;
+        outline: none;
+        margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        width: 140px;
+        font-weight: 100;
+    }
 }
-@media (max-width: 768px){
+@media (max-width: 800px){
     
     .About h1 {
         font-weight: 900;
@@ -76,7 +106,7 @@
     .About img {
         margin-top: -20px;
         border-radius: 50%;
-        height: 100px;
+        height: 120px;
         margin-bottom: 20px;
     }
     .description {
@@ -99,10 +129,19 @@
     }
 }
 @media (max-width: 600px) {
+    .About {
+        height: 80vh;
+    }
     .About h1 {
         font-weight: 900;
         font-size: 46px;
         line-height: 0.9;
+    }
+    .About img {
+        margin-top: -20px;
+        border-radius: 50%;
+        height: 90px;
+        margin-bottom: 20px;
     }
     .description {
         font-size: 10px;
@@ -131,7 +170,7 @@
     }
 }
 
-@media (max-width: 424px){
+@media (max-width: 450px){
     .About h1 {
         font-weight: 900;
         font-size: 40px;
@@ -139,9 +178,15 @@
     }
     .description {
         font-size: 12px;
-        width: 370px;
+        width: 400px;
     }
     h4 {
         font-size: 13px;
+    }
+    .About img {
+        margin-top: -20px;
+        border-radius: 50%;
+        height: 70px;
+        margin-bottom: 20px;
     }
 }

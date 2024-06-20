@@ -95,9 +95,6 @@ button {
 }
 
 @media (max-width: 1540px) {
-    .contact {
-        margin-top: 120px;
-    }
     input {
         padding-left: 20px;
         width: 470px;
@@ -137,7 +134,7 @@ button {
 }
 @media (max-width: 1024px) {
     .contact {
-        margin-top: 150px;
+        margin-top: -120px;
     }
     input {
         padding-left: 20px;
@@ -179,7 +176,7 @@ button {
 }
 @media (max-width: 800px) {
     .contact {
-        margin-top: 290px;
+        margin-top: 120px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -195,7 +192,7 @@ button {
 
 @media (max-width: 600px) {
     .contact {
-        margin-top: 200px;
+        margin-top: 70px;
     }
     input {
         padding-left: 20px;
@@ -229,7 +226,7 @@ button {
 }
 @media (max-width: 450px) {
     .contact {
-        margin-top: 200px;
+        margin-top: 0px;
     }
     input {
         padding-left: 20px;

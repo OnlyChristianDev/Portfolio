@@ -53,35 +53,18 @@
     width: 300px;
     height: 100px;
 }
-
-@media (max-width: 1440px) {
-    .list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .query {
-        display: flex;
-        gap: 30px;
-    }
-    .projects {
-        margin-top: -50px;
-        height: 80vh;
-        text-align: center;
-    }
+@media (max-width: 1540px) {
     .works {
-        width: 360px;
-        height: 200px;
+        width: 300px;
+        height: 190px;
     }
     .imc {
         height: 160px;
         width: 300px;
     }
-
 }
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .list {
-        margin-bottom: -200px;
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -89,26 +72,49 @@
     }
     .query {
         display: flex;
-        gap: 40px;
+        gap: 25px;
     }
     .projects {
         margin-top: 100px;
         margin-bottom: 120px;
-        height: 80vh;
+        height: 100vh;
         text-align: center;
     }
     .works {
-        width: 390px;
+        width: 380px;
         height: 220px;
     }
     .imc {
         height: 160px;
         width: 300px;
     }
+
+}
+
+@media (max-width: 800px) {
+    .list {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects {
+        height: 100vh;
+        text-align: center;
+    }
+    .query {
+        flex-direction: column;
+        display: flex;
+    }
+    .works {
+        width: 580px;
+        height: 290px;
+    }
    
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
     .list {
         flex-direction: column;
@@ -118,7 +124,7 @@
     }
 
     .projects {
-        height: 120vh;
+        height: 100vh;
         text-align: center;
     }
     .query {
@@ -126,13 +132,13 @@
         display: flex;
     }
     .works {
-        width: 500px;
-        height: 260px;
+        width: 450px;
+        height: 250px;
     }
     
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     .works {
         width: 370px;
         height: 200px;
@@ -140,5 +146,10 @@
     .query {
         flex-direction: column;
         display: flex;
+    }
+    .projects {
+        margin-top: -110px;
+        height: 100vh;
+        text-align: center;
     }
 }

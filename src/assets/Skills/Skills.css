@@ -34,7 +34,6 @@
     height: 120px;
 }
 
-
 .grid {
     display: flex;
     flex-direction: column;
@@ -48,24 +47,59 @@ img {
     -moz-user-drag: none;    
     -o-user-drag: none;              
 }
-
-@media (max-width: 900px) {
+@media (max-width: 1540px) {
     .skills {
-        margin-top: 100px;
+        margin-bottom: -110px;
+    }
+}
+@media (max-width: 1024px) {
+    .skills {
+        margin-bottom: -290px;
     }
     .square {
         cursor: pointer;
-        width: 170px;
-        height: 170px;
+        width: 182px;
+        height: 182px;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 10px;
         box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.201);
     }
+    .iconSkills {
+        height: 150px;
+        color: #5F14F3;
+    }
+    .sass {
+        height: 120px;
+    }
+
+}
+@media (max-width: 800px) {
+    .skills {
+        margin-bottom: -180px;
+    }
+    .square {
+        cursor: pointer;
+        width: 130px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.201);
+    }
+    .iconSkills {
+        height: 100px;
+        color: #5F14F3;
+    }
+    .sass {
+        height: 80px;
+    }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .firstLine {
         display: grid;
         grid-template-columns: 2fr 2fr;
@@ -75,18 +109,22 @@ img {
         grid-template-columns: 2fr 2fr;
     }
     .skills {
-        height: 150vh;
+        height: 100vh;
         width: 100%;
+        margin-bottom: 50px;
     }
     .iconSkills {
-        height: 140px;
+        height: 110px;
         color: #5F14F3;
     }
     .sass {
-        height: 120px;
+        height: 90px;
     }
 }
 @media (max-width: 450px){
+    .skills {
+        margin-bottom: 265px;
+    }
     .square {
         cursor: pointer;
         width: 180px;
@@ -98,7 +136,7 @@ img {
         box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.201);
     }
     .iconSkills {
-        height: 120px;
+        height: 100px;
         color: #5F14F3;
     }
     .sass {
