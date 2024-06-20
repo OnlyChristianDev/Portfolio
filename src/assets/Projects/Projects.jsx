@@ -2,6 +2,10 @@ import React from 'react';
 import './Projects.css';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import imc from "/public/imc.png"
+import quiz from "/public/quiz.png"
+import weather from "/public/weather.png"
+
 
 const Projects = () => {
   const { ref, inView } = useInView({ triggerOnce: true });
@@ -21,7 +25,6 @@ const Projects = () => {
       </div>
       <div className="list" ref={ref}>
         <div className="query">
-
         <a target='_blank' href="https://imc-calculator-steel.vercel.app/"><motion.div
           className="works"
           initial={{ opacity: 0, y: 50 }}
@@ -29,7 +32,7 @@ const Projects = () => {
           transition={{ duration: 0.5, delay: 0.0 }}
           whileHover={{ scale: "1.05" }}  
         > 
-          <img className="imc" src="./public/imc.png" alt="IMC Calculator" />
+          <img className="imc" src={imc} alt="IMC Calculator" />
         </motion.div> </a>
         <a target='_blank' href="https://weather-project-inky-two.vercel.app/"> <motion.div
           className="bluediv works"
@@ -38,7 +41,7 @@ const Projects = () => {
           transition={{ duration: 0.5, delay: 0.0 }}
           whileHover={{ scale: "1.05" }} 
         >
-          <img className="weather" src="./public/weather.png" alt="Weather App" />
+          <img className="weather" src={weather} alt="Weather App" />
         </motion.div> </a>
         </div>
         <a target= "_blank" href="https://quiz-in-java-script.vercel.app/" ><motion.div
@@ -48,7 +51,7 @@ const Projects = () => {
           transition={{ duration: 0.5, delay: 0.0 }}
           whileHover={{ scale: "1.05" }} 
         >
-          <img className="quiz" src="./public/quiz.png" alt="Quiz App" />
+          <img className="quiz" src={quiz} alt="Quiz App" />
         </motion.div> </a>
       </div>
     </div>
