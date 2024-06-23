@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import imc from "/public/imc.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloud } from '@fortawesome/free-solid-svg-icons';
-
+import logoVirtualR from "./public/logo.png"
 
 const Projects = () => {
   const { ref, inView } = useInView({ triggerOnce: true });
@@ -55,7 +55,7 @@ const Projects = () => {
             whileHover={{ scale: "1.05" }} 
           >
             <h1>VirtualR BUILD TOOLS<br /> <span className='orangegradient'> FOR DEVELOPERS </span></h1>
-            <img className='logo' src="./public/logo.png" alt="" />
+            <img className='logo' src={logoVirtualR} alt="" />
           </motion.div>
         </a>
       </div>
