@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import imc from "/public/imc.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloud } from '@fortawesome/free-solid-svg-icons';
-import logoVirtualR from "./public/logo.png"
+import logoVirtualR from "/public/logo.png"
 
 const Projects = () => {
   const { ref, inView } = useInView({ triggerOnce: true });
