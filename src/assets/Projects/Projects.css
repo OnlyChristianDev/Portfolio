@@ -35,25 +35,44 @@
     width: 370px;
 }
 
-.quiz {
+.virtualR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 10px;
     height: 100px;
     width: 280px;
 }
 
-.bluediv {
-    background-color: #3262C0;
+.logo {
+    height: 100px;
 }
-
 .query {
     gap: 30px;
     display: flex;
 }
-.weather {    
-    width: 300px;
+.cloud {
     height: 100px;
 }
+a {
+    color: white;
+    text-decoration: none;
+  }
+.orangegradient {
+    background: linear-gradient(45deg, #F97316, #9A1C1B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; 
+}
 @media (max-width: 1540px) {
+    .logo {
+        height: 70px;
+    }
+    .virtualR {
+        font-size: 10px;
+    }
     .works {
         width: 300px;
         height: 190px;
@@ -64,6 +83,12 @@
     }
 }
 @media (max-width: 1024px) {
+    .logo {
+        height: 100px;
+    }
+    .virtualR {
+        font-size: 13px;
+    }
     .list {
         flex-direction: column;
         display: flex;
@@ -85,13 +110,23 @@
         height: 220px;
     }
     .imc {
-        height: 160px;
-        width: 300px;
+        height: 195px;
+        width: 400px;
     }
 
 }
 
 @media (max-width: 800px) {
+    .imc {
+        height: 250px;
+        width: 500px;
+    }
+    .logo {
+        height: 90px;
+    }
+    .virtualR {
+        font-size: 18px;
+    }
     .list {
         flex-direction: column;
         display: flex;
@@ -115,14 +150,22 @@
 }
 
 @media (max-width: 600px) {
-
+    .logo {
+        height: 100px;
+    }
+    .virtualR {
+        font-size: 15px;
+    }
     .list {
         flex-direction: column;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
+    .imc {
+        height: 200px;
+        width: 400px;
+    }
     .projects {
         height: 100vh;
         text-align: center;
@@ -139,6 +182,15 @@
 }
 
 @media (max-width: 450px) {
+    .cloud {
+        height: 100px;
+    }
+    .logo {
+        height: 60px;
+    }
+    .virtualR {
+        font-size: 12.5px;
+    }
     .works {
         width: 370px;
         height: 200px;

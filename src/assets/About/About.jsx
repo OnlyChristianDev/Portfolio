@@ -5,6 +5,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faEnvelope} from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import chris from "/public/imgchris.png"
 
 const About = () => {
     const [text] = useTypewriter({
@@ -19,7 +20,7 @@ const About = () => {
         <motion.div initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 40 }}
         transition={{ duration: 1.0 }} className="About">
-            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSN6UqNFpH-ZvJQcU6AvK_WCkERTv9mo8BfrPjDgOBizTALvOFV" alt="" />
+            <img className="chris" src={chris} alt="" />
             <h4>Hi, I'm Christian &#128075;</h4>
             <div className="description">
                 <h1>

@@ -14,7 +14,6 @@
     transform: scale(1.05);
 }
 .square {
-    cursor: pointer;
     width: 200px;
     height: 200px;
     display: flex;
@@ -127,8 +126,8 @@ img {
     }
     .square {
         cursor: pointer;
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
         display: flex;
         align-items: center;
         justify-content: center;
