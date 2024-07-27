@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import chris from "/public/imgchris.png"
-import pdf from "/public/curriculo christian frontend.pdf"
+import pdf from "/public/Curriculo-Christian-Frontend.pdf"
 
 const About = () => {
 
