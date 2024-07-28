@@ -33,7 +33,7 @@ Início: Fev/2024 - 2028
 ## Contato
 
 - **Email**: [Christiandeveloper123@gmail.com](mailto:Christiandeveloper123@gmail.com)
-- **LinkedIn**: [Christian Gabriel]([https://www.linkedin.com/in/seu-linkedin](https://www.linkedin.com/in/christiangdev/))
+- **LinkedIn**: [Christian Gabriel]((https://www.linkedin.com/in/christiangdev/))
 
 ---
 
