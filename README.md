@@ -1,8 +1,41 @@
-# React + Vite
+# Meu Portfólio de Desenvolvedor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio de desenvolvedor! Este repositório contém uma coleção dos meus projetos e habilidades na área de desenvolvimento de software.
 
-Currently, two official plugins are available:
+## Índice
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Sobre Mim](#sobre-mim)
+- [Projetos](#projetos)
+- [Habilidades](#habilidades)
+- [Educação](#educação)
+- [Contato](#contato)
+
+## Sobre Mim
+
+Sou um desenvolvedor de software apaixonado por criar soluções eficientes e inovadoras. Tenho experiência em desenvolvimento front-end, com foco em criar interfaces de usuário interativas e responsivas.
+
+## Habilidades
+
+- **Linguagens de Programação**: JavaScript, TypeScript
+- **Linguagens de Marcação**: HTML, CSS
+- **Bibliotecas CSS**: Sass, Tailwind.css
+- **Frameworks e Bibliotecas**: React, Framer Motion, Next
+- **Ferramentas**: Git, GitHub, VS Code
+
+## Educação
+
+### Curso de Ciência da Computação
+
+Instituição: Uninter
+
+Período: 02
+Início: Fev/2024 - 2028
+
+## Contato
+
+- **Email**: [Christiandeveloper123@gmail.com](mailto:Christiandeveloper123@gmail.com)
+- **LinkedIn**: [Christian Gabriel]([https://www.linkedin.com/in/seu-linkedin](https://www.linkedin.com/in/christiangdev/))
+
+---
+
+Obrigado por visitar meu portfólio! Sinta-se à vontade para explorar meus projetos e entrar em contato caso tenha alguma pergunta ou proposta de colaboração.
