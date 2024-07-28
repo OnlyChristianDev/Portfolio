@@ -5,7 +5,6 @@ Bem-vindo ao meu portfólio de desenvolvedor! Este repositório contém uma cole
 ## Índice
 
 - [Sobre Mim](#sobre-mim)
-- [Projetos](#projetos)
 - [Habilidades](#habilidades)
 - [Educação](#educação)
 - [Contato](#contato)
