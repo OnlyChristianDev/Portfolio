@@ -97,7 +97,7 @@ button {
 @media (max-width: 1540px) {
     input {
         padding-left: 20px;
-        width: 470px;
+        width: 45vw;
         height: 33px;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
@@ -109,7 +109,7 @@ button {
         resize: none;
         padding-left: 20px;
         padding-top: 12px;
-        width: 470px;
+        width: 45vw;
         height: 33px;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
@@ -119,10 +119,10 @@ button {
         height: 200px;
     }
     button {
-        width: 470px;
+        width: 45vw;
     }
     .left {
-        width: 470px;
+        width: 45vw;
     }
     .gmail {
         display: flex;
@@ -130,15 +130,16 @@ button {
     .gmail .gmailIcon {
       margin-top: 6px;
       margin-right: 4px;
+    }
+    .contact {
+        margin-top: 100px;
     }
 }
+
 @media (max-width: 1024px) {
-    .contact {
-        margin-top: -120px;
-    }
     input {
         padding-left: 20px;
-        width: 400px;
+        width: 50vw;
         height: 33px;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
@@ -150,7 +151,7 @@ button {
         resize: none;
         padding-left: 20px;
         padding-top: 12px;
-        width: 400px;
+        width: 50vw;
         height: 33px;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
@@ -160,11 +161,10 @@ button {
         height: 200px;
     }
     button {
-        width: 400px;
+        width: 50vw;
     }
     .left {
-        margin-top: 30px;
-        width: 300px;
+        width: 40vw;
     }
     .gmail {
         display: flex;
@@ -172,11 +172,14 @@ button {
     .gmail .gmailIcon {
       margin-top: 6px;
       margin-right: 4px;
+    }
+    .contact {
+        margin-top: 100px;
     }
 }
 @media (max-width: 800px) {
     .contact {
-        margin-top: 120px;
+        margin-top: 170px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -185,18 +188,28 @@ button {
         height: 100vh;
     }
     .left {
-        width: 420px;
+        width: 360px;
+        width: 90vw;
+    }
+    input {
+        width: 90vw;
+    }
+    textarea {
+        width: 90vw;
+    }
+    button {
+        width: 90vw;
     }
     
 }
 
 @media (max-width: 600px) {
     .contact {
-        margin-top: 70px;
+        margin-top: 170px;
     }
     input {
         padding-left: 20px;
-        width: 420px;
+        width: 95vw;
         height: 33px;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
@@ -208,7 +221,7 @@ button {
         resize: none;
         padding-left: 20px;
         padding-top: 12px;
-        width: 420px;
+        width: 95vw;
         height: 33px;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
@@ -218,19 +231,16 @@ button {
         height: 200px;
     }
     button {
-        width: 430px;
+        width: 95vw;
     }
     .left {
-        width: 420px;
+        width: 360px;
+        width: 90vw;
     }
 }
 @media (max-width: 450px) {
-    .contact {
-        margin-top: 0px;
-    }
     input {
-        padding-left: 20px;
-        width: 360px;
+        width: 95vw;
         height: 33px;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
@@ -240,21 +250,25 @@ button {
     }
     textarea {
         resize: none;
-        padding-left: 20px;
         padding-top: 12px;
-        width: 360px;
-        height: 33px;
+        width: 95vw;
         border: none;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.041);
         background-color: rgb(219, 218, 218);
         outline: none;
         border-radius: 10px;
-        height: 200px;
+        height: 40vh;
     }
     button {
-        width: 360px;
+        width: 95vw;
     }
     .left {
         width: 360px;
+        width: 95vw;
     }
+    .contact {
+        margin-top: 170px;
+ 
+    }
+  
 }

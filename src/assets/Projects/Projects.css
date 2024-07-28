@@ -1,5 +1,4 @@
 .projects {
-    margin-top: -50px;
     height: 60vh;
     text-align: center;
     display: flex;
@@ -8,7 +7,8 @@
     flex-direction: column;
 }
 
-.sla {
+.TittleProjects {
+    margin-top: 60px;
     margin-bottom: 60px;
 }
 .works {
@@ -41,8 +41,8 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    height: 100px;
-    width: 280px;
+    width: 420px;
+    height: 220px;
 }
 
 .logo {
@@ -59,6 +59,7 @@ a {
     color: white;
     text-decoration: none;
   }
+
 .orangegradient {
     background: linear-gradient(45deg, #F97316, #9A1C1B);
   -webkit-background-clip: text;
@@ -66,23 +67,30 @@ a {
   background-clip: text;
   color: transparent; 
 }
+
 @media (max-width: 1540px) {
     .logo {
-        height: 70px;
+        height: 12vh;
     }
     .virtualR {
-        font-size: 10px;
+        font-size: 1vw;
     }
     .works {
-        width: 300px;
-        height: 190px;
+        width: 30vw;
+        height: 30vh;
     }
     .imc {
-        height: 160px;
+        height: 150px;
         width: 300px;
+    }
+    .projects {
+        height: 100%;
     }
 }
 @media (max-width: 1024px) {
+    .projects {
+        height: 100%;
+    }
     .logo {
         height: 100px;
     }
@@ -100,26 +108,24 @@ a {
         gap: 25px;
     }
     .projects {
-        margin-top: 100px;
-        margin-bottom: 120px;
-        height: 100vh;
+        height: 100%;
         text-align: center;
     }
     .works {
-        width: 380px;
-        height: 220px;
+        width: 45vw;
+        height: 30vh;
     }
     .imc {
-        height: 195px;
-        width: 400px;
+        height: 170px;
+        width: 340px;
     }
 
 }
 
 @media (max-width: 800px) {
     .imc {
-        height: 250px;
-        width: 500px;
+        height: 198px;
+        width: 380px;
     }
     .logo {
         height: 90px;
@@ -135,7 +141,7 @@ a {
     }
 
     .projects {
-        height: 100vh;
+        height: 100%;
         text-align: center;
     }
     .query {
@@ -143,13 +149,16 @@ a {
         display: flex;
     }
     .works {
-        width: 580px;
-        height: 290px;
+        width: 90vw;
+        height: 35vh;
     }
    
 }
 
 @media (max-width: 600px) {
+    .projects {
+        height: 100%;
+    }
     .logo {
         height: 100px;
     }
@@ -167,7 +176,7 @@ a {
         width: 400px;
     }
     .projects {
-        height: 100vh;
+        height: 100%;
         text-align: center;
     }
     .query {
@@ -175,8 +184,8 @@ a {
         display: flex;
     }
     .works {
-        width: 450px;
-        height: 250px;
+        width: 90vw;
+        height: 40vh;
     }
     
 }
@@ -186,22 +195,25 @@ a {
         height: 100px;
     }
     .logo {
-        height: 60px;
+        height: 70px;
     }
     .virtualR {
         font-size: 12.5px;
     }
     .works {
-        width: 370px;
-        height: 200px;
+        width: 85vw;
+        height: 40vh;
     }
     .query {
         flex-direction: column;
         display: flex;
     }
     .projects {
-        margin-top: -110px;
-        height: 100vh;
+        height: 100%;
         text-align: center;
+    }
+    .imc {
+        height: 160px;
+        width: 300px;
     }
 }

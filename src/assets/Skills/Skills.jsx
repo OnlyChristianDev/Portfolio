@@ -22,9 +22,11 @@ const Skills = () => {
 
   return (
     <div id='skills' className="skills">
+      <div>
       <motion.h1 initial={{ opacity: 0, y: 50 }} animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} transition={{ duration: 0.5, delay: 0.3 }} >
         My <span className="mark">skills.</span>
       </motion.h1>
+      </div>
       <div className="grid" ref={ref}>
         <div className="squares firstLine">
           {skills.slice(0, 4).map((skill, index) => (
